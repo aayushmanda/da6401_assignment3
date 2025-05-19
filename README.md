@@ -2,7 +2,12 @@
 
 
 
-This repository contains the implementation for **DA6401 Assignment 2**, a computer vision project focused on classifying images from the iNaturalist dataset using a custom Convolutional Neural Network (CNN) and a fine-tuned ResNet50 model. The project includes data preprocessing, model training, hyperparameter tuning via Weights & Biases (WandB) sweeps, and visualization of predictions.
+This repository contains the implementation for **DA6401 Assignment 3**, it explores sequence-to-sequence (seq2seq) models for transliteration using the [Dakshina dataset](https://github.com/google-research-datasets/dakshina). The primary goal is to map a Devanagari script to its corresponding word in romanized string (Latin script), leveraging RNN-based architectures and attention mechanisms. The assignment is structured to help you:
+
+- Build and analyze vanilla seq2seq models (RNN, LSTM, GRU)
+- Experiment with attention-based models
+- Perform hyperparameter tuning using Weights & Biases (wandb)
+- Visualize model internals and attention maps
 
 - **Assignment Report**: [WandB Report](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3/reports/DA6401-Assignment-3-Report--VmlldzoxMjg0NDY3Mg)
 - **GitHub Repository**: [aayushmanda/da6401_assignment2](https://github.com/aayushmanda/da6401_assignment3)
