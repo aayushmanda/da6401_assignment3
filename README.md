@@ -30,24 +30,21 @@ pip install prettytable
 ![](Attention.png)
 
 ## Dataset
-The project uses the [**DakshinaDataset**](https://github.com/google-research-datasets/dakshina). Download and extract it as follows:
+The project uses the [**DakshinaDataset**](https://github.com/google-research-datasets/dakshina). Download and extract it as mentioned in github repo in link.
+
+## Repo Structure
 
 ```
-da6401_assignment2/
-├── PartA/                    # Files for custom CNN implementation
-│   ├── config.yaml           # Configuration for dataset paths and hyperparameters
-│   ├── visualization.py      # Utility for plotting prediction grid
-│   ├── da6401_A.ipynb        # Jupyter notebook for training and evaluation
-│   ├── train.py              # Script for training the custom CNN
-│   ├── model.py              # Custom CNN model definition (FlexibleCNN)
-│
-├── PartB/                    # Files for ResNet50 fine-tuning
-│   ├── config.yaml           # Configuration for dataset paths and hyperparameters
-│   ├── train.py              # Script for fine-tuning ResNet50
-│   ├── sweep.ipynb           # Notebook for hyperparameter sweeps with WandB
-│   ├── model.py              # ResNet50 model setup and fine-tuning logic
-│   ├── da6401_B.ipynb        # Jupyter notebook for fine-tuning and evaluation
-│
-├── requirements.txt          # Python dependencies for both parts
-├── README.md                 # Project overview and setup instructions
+  da6401_assignment3/
+   ├── predictions_attention/          # Directory containing prediction outputs for the attention-based model
+   ├── predictions_vanilla/            # Directory containing prediction outputs for the vanilla Seq2Seq model
+   ├── asg3.ipynb                      # Jupyter notebook for training and evaluating the vanilla Seq2Seq model
+   ├── asg3_attention.ipynb            # Jupyter notebook for training and evaluating the attention-based Seq2Seq model
+   ├── attention.pt                    # Saved model weights for the attention-based Seq2Seq model
+   ├── best_transliteration_model.pt   # Saved model weights for the best vanilla Seq2Seq model
+   ├── model.py                        # Definitions for EncoderRNN, DecoderRNN, and Seq2SeqModel (used by both models)
+   ├── train.py                        # Script for training and evaluating the Seq2Seq models
+   ├── utils.py                        # Utilities for data loading and preprocessing (e.g., TransliterationDataset, prepare_data)
+   ├── README.md                       # Project overview, setup instructions, and dataset details
+
 ```
