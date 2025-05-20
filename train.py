@@ -8,7 +8,7 @@ import random
 import re
 from prettytable import PrettyTable
 import matplotlib.pyplot as plt
-from model import EncoderRNN, DecoderRNN, Seq2Seq
+from model import EncoderRNN, DecoderRNN, Seq2SeqModel
 from utils import TransliterationDataset, count_parameters, prepare_data
 
 
@@ -170,10 +170,10 @@ def main():
         print(f"Validation Accuracy: {val_accuracy:.4f}")
 
         # Save best model
-        if val_loss < best_val_loss:
-            best_val_loss = val_loss
-            torch.save(model.state_dict(), "best_transliteration_model.pt")
-            print("Model saved!")
+        # if val_loss < best_val_loss:
+        #     best_val_loss = val_loss
+        #     torch.save(model.state_dict(), "best_transliteration_model.pt")
+        #     print("Model saved!")
 
         print("-----")
 
