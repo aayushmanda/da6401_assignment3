@@ -9,6 +9,8 @@ This repository contains the implementation for **DA6401 Assignment 3**, it expl
 - Perform hyperparameter tuning using Weights & Biases (wandb)
 - Visualize model internals and attention maps
 
+`Humble Note`: I made the sweep based on character level accuracy, while reporting I have mentioned both sequence level accuracy(exact match) and character level accuracy in report.
+
 - **Assignment Report**: [WandB Report](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3/reports/DA6401-Assignment-3-Report--VmlldzoxMjg0NDY3Mg)
 - **GitHub Repository**: [aayushmanda/da6401_assignment3](https://github.com/aayushmanda/da6401_assignment3)
 - **WandB Sweep Links**:
