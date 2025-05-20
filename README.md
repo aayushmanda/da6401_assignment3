@@ -12,10 +12,8 @@ This repository contains the implementation for **DA6401 Assignment 3**, it expl
 - **Assignment Report**: [WandB Report](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3/reports/DA6401-Assignment-3-Report--VmlldzoxMjg0NDY3Mg)
 - **GitHub Repository**: [aayushmanda/da6401_assignment3](https://github.com/aayushmanda/da6401_assignment3)
 - **WandB Sweep Links**:
-  - [Sweep Homepage (Scratch with Parallel Plot)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2/sweeps/letqkeos?nw=nwuserda24s016)
-  - [Sweep Homepage (Scratch)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment2?nw=nwuserda24s016)
-  - [Sweep Homepage (Fine-tuning ResNet50)](https://wandb.ai/da24s016-indian-institute-of-technology-madras/resnet50-pytorch-tuning/sweeps/im2xbayo?nw=nwuserda24s016)
-
+  - [Sweep Homepage Vanilla](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3_vanilla/sweeps/64v5oiu0?nw=nwuserda24s016)
+  - [Sweep Homepage Attention](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3_attention/sweeps/9mw3okow?nw=nwuserda24s016)
 
 ---
 Please install the dataset before running any of the .py files
