@@ -2,7 +2,7 @@
 
 
 
-This repository contains the implementation for **DA6401 Assignment 3**, it explores sequence-to-sequence (seq2seq) models for transliteration using the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina). The primary goal is to map a Devanagari script to its corresponding word in romanized string (Latin script), leveraging RNN-based architectures and attention mechanisms. The assignment is structured to help you:
+This repository contains the implementation for **DA6401 Assignment 3**, it explores sequence-to-sequence (seq2seq) models for transliteration using the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina). The primary goal is to map a Devanagari script to its corresponding word in romanized string (Latin script), leveraging RNN-based architectures and attention mechanisms. The assignment is structured to:
 
 - Build and analyze vanilla seq2seq models (RNN, LSTM, GRU)
 - Experiment with attention-based models
