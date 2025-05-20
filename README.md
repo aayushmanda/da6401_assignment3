@@ -23,6 +23,8 @@ Please install the dataset before running any of the .py files
 wget https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar
 tar -xvf dakshina_dataset_v1.0.tar
 
+pip install prettytable
+
 ```
 ## Attention and Activation map
 ![](Attention.png)
