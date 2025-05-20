@@ -18,13 +18,17 @@ This repository contains the implementation for **DA6401 Assignment 3**, it expl
   - [Sweep Homepage Attention](https://wandb.ai/da24s016-indian-institute-of-technology-madras/da6401-assignment3_attention/sweeps/9mw3okow?nw=nwuserda24s016)
 
 ---
-Please install the dataset before running any of the .py files
+## Usage
+Please install the dataset before running any of the .py files (consider this as requirements)
 ```bash
 wget https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar
 tar -xvf dakshina_dataset_v1.0.tar
-
 pip install prettytable
+```
+Script is for training vanilla seq2seq model.
 
+```bash
+python train.py
 ```
 ## Attention and Activation map
 ![](Attention.png)
